@@ -1,0 +1,27 @@
+.page-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.side-by-side {
+  display: flex;
+  align-items: flex-start;
+  padding: 30px 20px;
+}
+
+.content-sidebar {
+  flex: 100px 0 0;
+  padding-top: 40vh;
+  padding-bottom: 40vh;
+}
+
+.content-body {
+  flex: 1;
+  background-color: #fff;
+}
+
+li{
+	list-style: none;
+	text-decoration: none;
+}
